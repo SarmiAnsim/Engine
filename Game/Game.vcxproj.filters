@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Grafic">
+      <UniqueIdentifier>{ff2bc430-3f5c-486e-bb05-1096006b80bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grafic\Include">
+      <UniqueIdentifier>{db7affa7-3d22-4b82-8df3-e481222fde2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grafic\Source">
+      <UniqueIdentifier>{923433be-04c5-44dc-9c02-20a5d0a672fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{792d46ff-95cf-48fb-bec4-20d7042c9968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Include">
+      <UniqueIdentifier>{0732b7f7-5e1c-44a7-9f11-ec317bcc5455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{c7b5d7ea-d3a5-46e4-851e-fe0c29afcae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{2a41de01-6833-43e7-8027-a6cf35bbcfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Include">
+      <UniqueIdentifier>{26d52c81-f894-4767-ac2c-4dbff9b4cb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Source">
+      <UniqueIdentifier>{42aa0fde-f173-43d7-9399-d5713bb2272b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{b9decaf7-22d5-4618-8f55-1cae1fa7e9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Include">
+      <UniqueIdentifier>{90dd0b84-0ac9-43c6-ae91-f20ca72d39a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Source">
+      <UniqueIdentifier>{32faade1-a706-4c0a-bf42-8f3f4990cc3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grafic.cpp">
+      <Filter>Grafic\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="grafic.h">
+      <Filter>Grafic\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
